@@ -45,7 +45,7 @@ table th {
     }
 
 h1, h2, p {
-    background-color: #0f212e;
+    /*background-color: #0f212e;*/
     color: rgba(255,255,255,.7);
     display: flex;
     margin: 10px 10px 10px 10px;
