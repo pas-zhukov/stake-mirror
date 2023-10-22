@@ -1,0 +1,201 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-stake-game-diamond-poker {
+    width: 1.107421875em;
+}
+
+.icon-empty-mybet {
+    width: 0.7724609375em;
+}
+
+.icon-empty-betslip {
+    width: 1.2138671875em;
+}
+
+.icon-empty-responsible-gambling {
+    width: 1.185546875em;
+}
+
+.icon-no-ignored {
+    width: 0.775390625em;
+}
+
+.icon-empty-game {
+    width: 1.1071428571428574em;
+}
+
+.icon-empty-data-race {
+    width: 1.0357142857142858em;
+}
+
+.icon-no-stats {
+    width: 0.775390625em;
+}
+
+.icon-empty-sport {
+    width: 0.8779296875em;
+}
+
+.icon-empty-races {
+    width: 1.498046875em;
+}
+
+.icon-upcoming {
+    width: 0.90625em;
+}
+
+.icon-odd-down {
+    width: 1.2001953125em;
+}
+
+.icon-odd-up {
+    width: 1.2001953125em;
+}
+
+.icon-suit-spade {
+    width: 0.9912109375em;
+}
+
+.icon-suit-heart {
+    width: 1.341796875em;
+}
+
+.icon-suit-club {
+    width: 1.1162109375em;
+}
+
+.styles_container__OPiwc {
+    display: -moz-inline-box;
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center
+}
+
+.styles_icon__1ibnP {
+    fill: var(--light-text-color);
+    width: 35px;
+    height: 35px;
+    padding: .5em
+}
+
+.styles_highlight__3nYfc {
+    max-width: 600px;
+    background: var(--dark-bg-color);
+    border-radius: 5px;
+    padding: .25em 2em;
+    text-align: left;
+    margin: 0 auto
+}
+
+.styles_grid__3CD8O {
+    display: grid;
+    grid-template-columns:auto auto;
+    padding: 1em;
+    font-size: 1.3em;
+    text-align: left;
+    margin: 0 auto;
+    width: fit-content;
+    grid-gap: .25em 3em;
+    gap: .25em 3em
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: proxima-nova, sans-serif;
+    background: var(--main-bg-color);
+    color: var(--main-text-color);
+    display: -moz-box;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center
+}
+
+a {
+    color: var(--light-text-color);
+    text-decoration: none
+}
+
+a:hover {
+    color: var(--main-text-color)
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+main {
+    padding: 4rem 1.25rem;
+    text-align: center
+}
+
+code {
+    width: 100%;
+    background: var(--dark-bg-color);
+    border-radius: 5px
+}
+
+code, footer {
+    padding: 1em
+}
+
+dl, ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left
+}
+
+h1 {
+    font-size: 2rem
+}
+
+h2 {
+    font-size: 1.5rem
+}
+
+h3 {
+    font-size: 1.25rem
+}
+
+:root {
+    --main-bg-color: #192c38;
+    --secondary-bg-color: #333;
+    --dark-bg-color: #0f212e;
+    --main-text-color: #fff;
+    --light-text-color: #b1bad3;
+    --link-text-color: #007bff;
+    --green: #1fff20;
+    --red: #fe2247;
+    --neutral: #b1bad3
+}
+
+[data-theme=day] {
+    --main-bg-color: #fff;
+    --secondary-bg-color: #eee;
+    --dark-bg-color: #eee;
+    --main-text-color: #000;
+    --light-text-color: #b1bad3;
+    --link-text-color: #007bff;
+    --green: #1fff20;
+    --red: #fe2247;
+    --neutral: #b1bad3
+}
